@@ -1,0 +1,27 @@
+$white_text: #f6f5f5;
+$hover_text: #ff7373;
+
+/* Fix Bootstrap */
+.navbar {
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul {
+    li {
+        a {
+            text-decoration: none;
+            color: $white_text;
+        }
+    }
+}
+ul {
+    li {
+        a:hover {
+            color: $hover_text;
+        }
+    }
+}

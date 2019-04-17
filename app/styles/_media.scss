@@ -1,0 +1,106 @@
+$bgc_up_h: #472424;
+$bgc_down_h: #623232;
+
+@media(min-width: 320px) {
+
+}
+
+@media(min-width: 768px) {
+
+}
+
+@media(min-width: 1024px) {
+    .header {
+        .up-nav {
+            background-color: $bgc_up_h;
+            color: $white_text;
+            .container {
+                .row {
+                    .nav {
+                        .nav-item {
+                            font-weight: 600;
+                        }
+                    }
+
+                    .client-header {
+                        .cart_info {
+                            padding-top: 0.6em;
+                            img {
+                                padding-right: 0.3em;
+                            }
+                            .cart_balance {
+                                font-weight: 600;
+                            }
+                            .cart_items {
+                                color: $hover_text;
+                            }
+                        }
+                        .auth_block {
+                            padding-left: 0.5em;
+                            .btn {
+                                font-weight: 600;
+                                padding-top: 0.6em;
+                                color: $white_text;
+                            }
+                            .btn:hover {
+                                color: $white_text;
+                                background-color: $hover_text;
+                            }
+                            .btn:focus {
+                                color: $white_text;
+                                background-color: $hover_text;
+                            }
+                            .btn:active {
+                                color: $white_text;
+                                background-color: $hover_text;
+                            }
+                        }
+                    }
+
+
+                }
+            }
+        }
+        .down-nav {
+            background-color: $bgc_down_h;
+            height: 5em;
+            .navbar {
+                .navbar-brand {
+                    img {
+                        padding-bottom: 0.6em;
+                    }
+                }
+                .nav {
+                    overflow: hidden;
+                    .nav-item {
+                        display: block;
+                        color: #f2f2f2;
+                        text-align: center;
+                        font-weight: 600;
+                        padding-bottom: 1em;
+                        padding-top: 1.2em;
+                        border-bottom: 5px solid transparent;
+                    }
+                    .nav-item:hover {
+                        border-bottom: 5px solid $hover_text;
+                        a {
+                            color: $hover_text;
+                        }
+                    }
+                    .nav-item:active {
+                        border-bottom: 5px solid $hover_text;
+                        a {
+                            color: $hover_text;
+                        }
+                    }
+                    .nav-item:focus {
+                        border-bottom: 5px solid $hover_text;
+                        a {
+                            color: $hover_text;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
