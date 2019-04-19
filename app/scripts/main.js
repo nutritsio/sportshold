@@ -1,9 +1,11 @@
-console.log('\'Allo \'Allo!');
+$(document).ready(function() {
+    $('.tabs li').click(function() {
+        var tab_id = $(this).attr('data-tab');
+        
+        $('.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
 
-// Uncomment to enable Bootstrap tooltips
-// https://getbootstrap.com/docs/4.0/components/tooltips/#example-enable-tooltips-everywhere
-// $(function () { $('[data-toggle="tooltip"]').tooltip(); });
-
-// Uncomment to enable Bootstrap popovers
-// https://getbootstrap.com/docs/4.0/components/popovers/#example-enable-popovers-everywhere
-// $(function () { $('[data-toggle="popover"]').popover(); });
+        $(this).addClass('current');
+        $("#"+tab_id).addClass('current');
+    })
+})
