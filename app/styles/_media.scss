@@ -216,8 +216,8 @@
                 }
             }
             .tab-content{
-                display: none;
                 padding: 15px;
+                display: none;
                 .card {
                     width: 100%;
                     .card-body {
@@ -260,9 +260,76 @@
             }
         }
         .brands {
+            margin-top: 3em;
             .container {
                 padding-left: 2.8em !important;
                 padding-right: 2.8em !important;
+            }
+        }
+        .feedback {
+            height: 35em;
+            background-image: url('../images/feedback.png');
+            margin-top: 8em;
+            .container {
+                padding-top: 7em;
+                .tabs-testim {
+                    text-align: center;
+                    margin: 0px;
+                    padding: 0px;
+                    list-style: none;
+                    li{
+                        background: none;
+                        display: inline-block;
+                        cursor: pointer;
+                        padding: 10px 15px;
+                        opacity: 0.4;
+                    }
+                    .current {
+                        font-weight: 800;
+                        opacity: 1;
+                    }
+                }
+                .trugl {
+                    margin: 0 auto;
+                    width: 2.5em;
+                    border: 1.250em solid transparent;
+                    border-bottom: 1.250em solid rgba(90, 59, 59, 0.5); 
+                }
+                .tab-content{
+                    background-color: rgba(90, 59, 59, 0.5);
+                    padding: 3em;
+                    display: none;
+                    color: $white_text;
+                    font-weight: 600;
+                    font-size: 1em;
+                    text-align: center;
+                }
+                .current {
+                    display: inherit;
+                }
+            }
+        }
+        .news {
+            h1 {
+                margin: 3em auto;
+                text-align: center;
+                color: $bgc_down_h;
+                font-weight: 700;
+            }
+            .news-img-1 {
+                height: 20em;
+                background-image: url('../images/news-1.png');
+                background-size: cover;
+            }
+            .news-img-2 {
+                height: 20em;
+                background-image: url('../images/news-2.png');
+                background-size: cover;
+            }
+            .news-img-3 {
+                height: 20em;
+                background-image: url('../images/news-3.png');
+                background-size: cover;
             }
         }
     }
