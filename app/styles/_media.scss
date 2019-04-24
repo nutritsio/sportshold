@@ -29,7 +29,7 @@
                                 font-weight: 600;
                             }
                             .cart_items {
-                                color: $hover_text;
+                                color: $pink_text;
                             }
                         }
                         .auth_block {
@@ -41,15 +41,15 @@
                             }
                             .btn:hover {
                                 color: $white_text;
-                                background-color: $hover_text;
+                                background-color: $pink_text;
                             }
                             .btn:focus {
                                 color: $white_text;
-                                background-color: $hover_text;
+                                background-color: $pink_text;
                             }
                             .btn:active {
                                 color: $white_text;
-                                background-color: $hover_text;
+                                background-color: $pink_text;
                             }
                         }
                     }
@@ -79,21 +79,21 @@
                         border-bottom: 5px solid transparent;
                     }
                     .nav-item:hover {
-                        border-bottom: 5px solid $hover_text;
+                        border-bottom: 5px solid $pink_text;
                         a {
-                            color: $hover_text;
+                            color: $pink_text;
                         }
                     }
                     .nav-item:active {
-                        border-bottom: 5px solid $hover_text;
+                        border-bottom: 5px solid $pink_text;
                         a {
-                            color: $hover_text;
+                            color: $pink_text;
                         }
                     }
                     .nav-item:focus {
-                        border-bottom: 5px solid $hover_text;
+                        border-bottom: 5px solid $pink_text;
                         a {
-                            color: $hover_text;
+                            color: $pink_text;
                         }
                     }
                 }
@@ -129,7 +129,7 @@
                     font-family: 'Maven Pro', sans-serif;
                     font-weight: 900;
                     font-size: 2.8em;
-                    color: $hover_text;
+                    color: $pink_text;
                     padding-left: 0.1em;
                 }
                 p {
@@ -145,11 +145,11 @@
                     font-family: 'Maven Pro', sans-serif;
                     font-weight: 600;
                     font-size: 1em;
-                    background-color: $hover_text;
+                    background-color: $pink_text;
                     color: $white_text;
                 }
                 .btn:hover {
-                    background-color: $hover_text;
+                    background-color: $pink_text;
                     color: $white_text;
                     opacity: 0.8;
                 }
@@ -225,13 +225,13 @@
                             position: absolute;
                             top: 1em;
                             right: 0;
-                            background-color: $hover_text;
+                            background-color: $pink_text;
                             color: $white_text;
                             font-weight: 700;
                             padding: 0.1em 0.6em;
                         }
                         .card-title {
-                            color: $hover_text;
+                            color: $pink_text;
                             font-size: 1.5em;
                         }
                         .card-subtitle {
@@ -336,10 +336,41 @@
                         font-weight: 700;
                     }
                     a {
-                        color: #ff7373;
+                        color: $pink_text;
                         text-decoration: none;
                         font-weight: 500;
                     }
+                }
+            }
+        }
+        .help {
+            padding-left: 14%;
+            height: 12.5em;
+            min-width: 100%;
+            background-color: $pink_text;
+            margin: 5em 0;
+            display: flex;
+            .img_help{
+                margin-top: 5em;
+                img {
+                    
+                }
+            }
+            .help_text {
+                margin-top: 1em;
+                margin-left: 2em;
+                color: $white_text;
+                
+                padding-top: 3em;
+                h3 {
+                    font-size: 2.5em;
+                    font-weight: 800;
+                    margin-bottom: -0.2em;
+                    
+                }
+                p {
+                    font-weight: 600;
+                    font-size: 1.3em;
                 }
             }
         }
